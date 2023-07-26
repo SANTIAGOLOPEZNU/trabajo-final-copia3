@@ -1,0 +1,48 @@
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collapse{
+    justify-content: center;
+}
+.nav-link{
+    color:  black;
+    font-size: 18px;
+}
+#logo{
+    height: 35px;
+    width: 100spx;
+}
+#footer{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+}
+.list-group-item{
+    background-color: black;
+    color: aliceblue;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+#container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#logoig{
+    height: 20px;
+    width: 20px;
+}
+#colgrid{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px 
+}
+#logocolor{
+    color: green;
+}

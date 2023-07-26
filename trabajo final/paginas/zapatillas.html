@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zapatillas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <div class="col-md-3 mb-2 mb-md-0">
+                <a href="/index.html">
+                    <img id="logo" src="/img/logo.JPG" alt="logo">
+                </a>
+            </div>
+
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2">marcas</a></li>
+                <li><a href="/paginas/zapatillas.html" class="nav-link px-2">zapatillas</a></li>
+                <li><a href="#" class="nav-link px-2">indumentaria</a></li>
+                <li><a href="#" class="nav-link px-2">accesorios</a></li>
+            </ul>
+
+            <div class="col-md-3 text-end">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="buscar..." aria-label="Search">
+                    <button class="btn btn-outline" type="submit">
+                        <span class="material-symbols-outlined icon">
+                            search
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </header>
+    </div>
+
+  
+
+ 
+
+    <div class="container px-4 text-center ">
+        <div class="row gx-5">
+            <div class="col-2">
+                <div class="p-3">
+                    <div class="form-group">
+                        <label for="exampleSelect1" class="form-label mt-4">marca</label>
+                        <select class="form-select" id="producto">
+                            <option>todas las marcas</option>
+                            <option>adidas</option>
+                            <option>adidas yeezy</option>
+                            <option>jordan</option>
+                            <option>nike</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleSelect1" class="form-label mt-4">cantidad</label>
+                        <select class="form-select" id="cantidad">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                        </select>
+                    </div>
+                    <input type="button" onclick="cantidadcard()" value="ver"> </input>
+                </div>
+            </div>
+            <div class="col-10">
+                <div class="p-3" id="cuerpo">
+                    <div id="gutteer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer id="footer">
+        <div class="container px-4 text-center" id="container">
+            <div class="row gx-5">
+                <div class="col-2" id="lista2">
+                    <div class="p-3">
+                        <ul>
+                            <li class="list-group-item">
+                                <p><img src="/img/logoig.png" alt="logoig" id="logoig"> @fran_cifuentes</p>
+                            </li>
+                            <li class="list-group-item">
+                                <p><img src="/img/logowasap.png" alt="logoig" id="logoig"> (+54) 299 403-5454</p>
+                            </li>
+                            <li class="list-group-item">
+                                <p><img src="/img/logogmail.png" alt="logoig" id="logoig"> crowsnkrsinfo@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="p-3"></div>
+                </div>
+                <div class="col-2">
+                    <div class="p-3">
+                        <ul>
+                            <li class="list-group-item">An item</li>
+                            <li class="list-group-item">A second item</li>
+                            <li class="list-group-item">A third item</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/documento.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
